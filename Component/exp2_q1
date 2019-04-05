@@ -1,0 +1,3 @@
+SELECT *
+FROM Flights,Aircrafts,Schedule,Certified,Employees
+WHERE Flights.flno=Schedule.flno, Employees.eid=Certified.eid,Aircrafts.aid=Schedule.aid,Schedule.aid=Certified.aid

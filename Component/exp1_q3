@@ -1,0 +1,3 @@
+SELECT *
+FROM Schedule,Aircraft
+WHERE Schedule.aid=Aircraft.aid
